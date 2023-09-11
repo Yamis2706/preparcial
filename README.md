@@ -1,2 +1,0 @@
-# preparcial
-ejercicios para practicar
