@@ -33,7 +33,8 @@ public class MainEjercicio1 {
     }
 
 
-    private static Estudiante crearEstudiante(String nombre, int edad, String correo, int semestre, double nota1, double nota2, double nota3){
+    private static Estudiante crearEstudiante(String nombre, int edad, String correo, int semestre,
+                                              double nota1, double nota2, double nota3){
         Estudiante estudiante = new Estudiante();
         estudiante.setNombre(nombre);
         estudiante.setEdad(edad);
