@@ -105,15 +105,16 @@ public class Curso {
         System.out.println("Informacion del estudiante 3: "+ informacionEstudiante3);
     }
 
+
     public double obtenerPromedioCurso(){
-        double promedioEstuadiante1 = 0.0;
-        double promedioEstuadiante2 = 0.0;
-        double promedioEstuadiante3 = 0.0;
+        double promedioEstudiante1 = 0.0;
+        double promedioEstudiante2 = 0.0;
+        double promedioEstudiante3 = 0.0;
         double promedioCurso = 0.0;
-        promedioEstuadiante1 = getEstudiante1().calcularPromedio();
-        promedioEstuadiante2 = getEstudiante2().calcularPromedio();
-        promedioEstuadiante3 = getEstudiante3().calcularPromedio();
-        promedioCurso = (promedioEstuadiante1+promedioEstuadiante2+promedioEstuadiante3)/3;
+        promedioEstudiante1 = getEstudiante1().calcularPromedio();
+        promedioEstudiante2 = getEstudiante2().calcularPromedio();
+        promedioEstudiante3 = getEstudiante3().calcularPromedio();
+        promedioCurso = (promedioEstudiante1+promedioEstudiante2+promedioEstudiante3)/3;
 
         return promedioCurso;
     }

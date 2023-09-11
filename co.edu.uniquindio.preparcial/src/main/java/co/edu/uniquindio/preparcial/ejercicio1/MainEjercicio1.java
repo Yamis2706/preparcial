@@ -1,10 +1,11 @@
-package co.edu.uniquindio.preparcial;
+package co.edu.uniquindio.preparcial.ejercicio1;
 
 import co.edu.uniquindio.preparcial.model.Curso;
 import co.edu.uniquindio.preparcial.model.Docente;
 import co.edu.uniquindio.preparcial.model.Estudiante;
 
-public class Main {
+public class MainEjercicio1 {
+
     public static void main(String[] args) {
         Curso curso = inicializaDatosPrueba();
 
