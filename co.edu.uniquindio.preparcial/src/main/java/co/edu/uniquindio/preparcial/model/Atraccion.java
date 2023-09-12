@@ -10,7 +10,7 @@ public class Atraccion {
       private int pesoMaximo;
 
     public Atraccion(String nombre, String horarioOperacion, String descripcion,
-                     Strig rangoEdad, String nivelPeligro, int pesoMaximo) {
+                     String rangoEdad, String nivelPeligro, int pesoMaximo) {
         this.nombre = nombre;
         this.horarioOperacion = horarioOperacion;
         this.descripcion = descripcion;
@@ -83,13 +83,8 @@ public class Atraccion {
     public String subirAtraccion (int rangoEdad){
 
         if (rangoEdad >= 3 && rangoEdad <= 10)
-            if (nivelPeligro = "Bajo");{
-            return "Puede subir a la atracción;
-        }else {
-            "No puede subir a la atracción";
+            if (nivelPeligro == "Bajo");{
+            return "Puede subir a la atracción";
+
         }
-
-
-
-
-}
+    }   }
