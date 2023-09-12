@@ -13,7 +13,8 @@ public class Curso {
     private Docente docente;
 
 
-    public Curso(String nombre, int semestre, String grupo, int creditos, String jornada, Estudiante estudiante1, Estudiante estudiante2, Estudiante estudiante3, Docente docente) {
+    public Curso(String nombre, int semestre, String grupo, int creditos, String jornada,
+                 Estudiante estudiante1, Estudiante estudiante2, Estudiante estudiante3, Docente docente) {
         this.nombre = nombre;
         this.semestre = semestre;
         this.grupo = grupo;

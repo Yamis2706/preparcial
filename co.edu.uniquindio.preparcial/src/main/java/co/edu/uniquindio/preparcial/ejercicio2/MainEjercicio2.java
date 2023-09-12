@@ -14,9 +14,10 @@ public class MainEjercicio2 {
                "Montaña rusa de fuerte impacto y diseño con grandes elevaciones",
                "Adulto", "Alto", "80 Kilos");
 
-       Atraccion atraccion2 = crearAtraccion("Ciclón", "De 8:00 am a 5:00 pm", "Disco en " +
-                       "posición horizontal que gira a una velocidad de 300 km/h, mientras se eleva, hasta quedar en" +
-                       " posición vertical", "Adolescente y Adulto", "Medio", "80 Kilos" );
+       Atraccion atraccion2 = crearAtraccion("Ciclón", "De 8:00 am a 5:00 pm",
+               "Disco en posición horizontal que gira a una velocidad de 300 km/h, mientras se eleva, " +
+                       "hasta quedar en posición vertical", "Adolescente y Adulto", "Medio",
+               "80 Kilos" );
 
        Atraccion atraccion3 = crearAtraccion("Horses", "De 9:00 am a 4:00 pm",
                "Carrusel con caballitos de plástico para montar mientra gira", "Niño",
@@ -24,7 +25,8 @@ public class MainEjercicio2 {
 
        Atraccion atraccion4 = crearAtraccion("Botes", "De 8:00 am a 5:00 pm",
                "Botes acuáticos que realizan un recorrido por un río artificial mientras disfruta " +
-                       "la del paisaje", "Niño, Adolescente y Adulto", "Bajo", "80 Kilos");
+                       "la del paisaje", "Niño, Adolescente y Adulto", "Bajo",
+               "80 Kilos");
 
        Atraccion atraccion5 = crearAtraccion("Carros chocones", "De 9:00 am a 4:00 pm",
                "Carritos chocones impulsados por electricidad", "Adolescente y Adulto",
@@ -39,7 +41,8 @@ public class MainEjercicio2 {
                "80 Kilos");
 
        Atraccion atraccion8 = crearAtraccion("Cumbre", "De 8:00 am a 5:00 pm",
-               "Tirolina impulsada por resortes", "Adulto", "Alto", "70 Kilos");
+               "Tirolina impulsada por resortes", "Adulto", "Alto",
+               "70 Kilos");
 
        Atraccion atraccion9 = crearAtraccion ("Tren", "De 9:00 am a 4:00 pm",
                "Tren para los más pequeños que realiza un recorrido por todo el parque temático",
@@ -83,8 +86,6 @@ public class MainEjercicio2 {
        Visitante visitante10 = crearVisitante("Fabián","Sánchez Gallego",
                 "34 Años","1036891260", "Adulto",
                 "Masculino", "78 Kilos");
-
-
     }
 
     private static Atraccion crearAtraccion(String nombre, String horarioOperacion, String descripcion,
