@@ -1,16 +1,25 @@
 package co.edu.uniquindio.preparcial.model;
 
 public class Atraccion {
-
-      private String nombre;
-      private String horarioOperacion;
-      private String descripcion;
-      private String rangoEdad;
-      private String nivelPeligro;
-      private int pesoMaximo;
+    private String nombre;
+    private String horarioOperacion;
+    private String descripcion;
+    private String rangoEdad;
+    private String nivelPeligro;
+    private String pesoMaximo;
+    private Atraccion atraccion1;
+    private Atraccion atraccion2;
+    private Atraccion atraccion3;
+    private Atraccion atraccion4;
+    private Atraccion atraccion5;
+    private Atraccion atraccion6;
+    private Atraccion atraccion7;
+    private Atraccion atraccion8;
+    private Atraccion atraccion9;
+    private Atraccion atraccion10;
 
     public Atraccion(String nombre, String horarioOperacion, String descripcion,
-                     String rangoEdad, String nivelPeligro, int pesoMaximo) {
+                     String rangoEdad, String nivelPeligro, String pesoMaximo) {
         this.nombre = nombre;
         this.horarioOperacion = horarioOperacion;
         this.descripcion = descripcion;
@@ -59,32 +68,61 @@ public class Atraccion {
         this.nivelPeligro = nivelPeligro;
     }
 
-    public int getPesoMaximo() {
+    public String getPesoMaximo() {
         return pesoMaximo;
     }
 
-    public void setPesoMaximo(int pesoMaximo) {
+    public void setPesoMaximo(String pesoMaximo) {
         this.pesoMaximo = pesoMaximo;
     }
 
-    public String obtenerInformacion() {
-        String informacion = "";
-        informacion = informacion +
+    public Atraccion getAtraccion1() {
+        return atraccion1;
+    }
+
+    public Atraccion getAtraccion2() {
+        return atraccion2;
+    }
+
+    public Atraccion getAtraccion3() {
+        return atraccion3;
+    }
+
+    public Atraccion getAtraccion4() {
+        return atraccion4;
+    }
+
+    public Atraccion getAtraccion5() {
+        return atraccion5;
+    }
+
+    public Atraccion getAtraccion6() {
+        return atraccion6;
+    }
+    public Atraccion getAtraccion7() {
+        return atraccion7;
+    }
+
+    public Atraccion getAtraccion8() {
+        return atraccion8;
+    }
+
+    public Atraccion getAtraccion9() {
+        return atraccion9;
+    }
+    public Atraccion getAtraccion10() {
+        return atraccion10;
+    }
+
+    public String obtenerInformacionAtraccion() {
+        String informacionAtraccion = "";
+        informacionAtraccion = informacionAtraccion +
                 "nombre: " + getNombre() + "\n" +
                 "horarioOperacion: " + getHorarioOperacion() + "\n" +
                 "descripcion: " + getDescripcion() + "\n" +
                 "rangoedad: " + getRangoEdad() + "\n" +
                 "nivelPeligro: " + getNivelPeligro() + "\n" +
                 "pesoMaximo: " + getPesoMaximo() + "\n";
-        return informacion;
+        return informacionAtraccion;
     }
-
-
-    public String subirAtraccion (int rangoEdad){
-
-        if (rangoEdad >= 3 && rangoEdad <= 10)
-            if (nivelPeligro == "Bajo");{
-            return "Puede subir a la atracción";
-
-        }
-    }   }
+}
